@@ -100,6 +100,10 @@ li a {
     border-radius: 5px;
 }
 
+.banner-btn:hover {
+    background: linear-gradient(to right, rgb(161, 30, 30), rgb(189, 189, 53));
+}
+
 .bannar-right {
     margin-bottom: 90px;
 }
@@ -171,7 +175,7 @@ li a {
 }
 
 .about-img {
-    border-top: 1px solid red;
+    border-top: 1px solid rgb(175, 37, 37);
     padding: 50px;
     display: inline-block;
     margin-left: 50px;
@@ -271,4 +275,114 @@ li a {
     background-color: #FFF;
     padding: 6px 20px;
     border-radius: 5px;
+}
+
+.workout-btn:hover {
+    background: linear-gradient(to right, rgb(161, 30, 30), rgb(189, 189, 53));
+}
+
+.service {
+    margin-bottom: 180px;
+}
+
+.service-title {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 80px;
+
+}
+
+.cardboard-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cardboard {
+    width: 380px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px rgb(92, 28, 92);
+    margin: 20px;
+
+
+}
+
+.cardboard-img img {
+    width: 380px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cardboard-desc {
+    text-align: left;
+    padding: 30px 20px;
+    line-height: 32px;
+}
+
+.cardboard-desc-type {
+    color: rgb(221, 29, 29);
+    font-family: 'Inter', sans-serif;
+}
+
+.cardboard-desc-title,
+.cardboard-bottom-price {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+}
+
+.cardboard-desc-guide {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cardboard-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardboard-btn {
+    color: rgb(221, 29, 29);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.badge {
+    position: relative;
+}
+
+.badge-img {
+    width: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -30px;
+    margin-right: -15px;
+}
+
+.horizontal {
+    margin-bottom: 30px;
+    width: 90%;
+    margin-left: 90px;
+
+}
+
+.footer-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.author-name {
+    color: rgb(240, 24, 24);
+}
+
+.footer {
+    text-align: center;
 }
